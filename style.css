@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding : 0 ;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  .flex{
+
+    display: flex;
+    align-items: center;
+  }
+
+body{
+background : url("../GoMyCode/FB_IMG_1669395018921.jpg");
+background-size : cover ; 
+color : #f1f4f5
+}
+.container{ 
+height: 100%;
+
+color:rgb(247, 252, 252);
+background: none;
+}
+
+nav{
+margin: 0 30px;
+}
+ul{
+list-style: none ;
+margin : 20px ;
+font-size: 20px;
+}
+li{
+margin: 0 10px ;
+cursor: pointer;
+
+}
+
+
+footer{
+
+color:rgb(247, 252, 252);
+background: none ;
+}
+
+h3{
+    color:rgb(241, 236, 231);
+    font-family: roboto;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+
+}
+/* unvisited link */
+a:link {
+  color: rgb(57, 19, 226);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(187, 71, 255);
+}
+
+/* mouse over element */
+div:hover {
+  color: rgb(230, 14, 147);
+} 
+
+/* selected link */
+a:active{
+  color: #c2cf0b
+}
+
