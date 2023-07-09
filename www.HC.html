@@ -1,100 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <div align="center">
-            <title> Welcome a HCorporation </title>
-            <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="contact.html/">
     </head>
-    <!--<style>
-
-
-
-     
-     </style> --> 
-   
-   
 
     <body>
-        <nav>
-       
-        <div class="container flex">
-           <nav class ="flex">
-            <div align="center"><h1 style ="color:rgb(48, 19, 214); border: 20px rgb(241, 241, 245)"> Welcome a HCorporation </h1></div>
-            <ul class = "flex">
-            <li>Accueil </li>
-            <li> A Propos </li>
-            <li> Travail </li>
-            <li> CV </li>
-           <li> Contact </li>
-         </ul>
-        <div align="right"> <img src = "FB_IMG_1667549995899.jpg" widht="30" height="75"  alt="img">
-     </div>
-    </div>
-     
-           </nav>
-          
-           <br/>
+         
+      <nav>
+        <div>
+            <div >
+                <h1 class="title"> Welcome à HCorporation</h1>
 
-              <p>     
-           
-            
-            
-            <!-- la mise en plase du navigateur en haut-->
-             
-            <!-- en cette section se trouve nos sections-->
-            <div align="center">
-                <section>
-                    <p> <h1> A propos</h1></p> <br/>
-                    <p> <h3> cette page a ete crée pour voir a quel niveau nous avons compris les bases de HTML</h3> </p> <br/>
-                    <p><h2> La section</h2></p>
-                    <p> <h3> Dans la section nous pouvons voir les differents elements que que nous allons ajouter a notre travail. </h3> </p> <br/>
-                    <h3> Ces listes que nous allons utilser sont les suivants.</h3>
-                    <ul >
-                    <li> Images</li> <!--nous pouvons ajouter des images a notre page.-->
-                    <li> videos </li> <!--nous pouvons egalement ajouter des videos-->
-                    <li> audios</li> <!--car c'est aussi possible de lire de la musique sur les pages-->
-                    <li> lien</li> <!--ces liens vont permettre d'aller sur d'autres page ou d'autres sites ou pages web-->
-                    </ul> <br/>
-                    <p><h2> Travail</h2></p>
-                    <h3> belle image </h3>
-                    <img src="FB_IMG_1671519036723.jpg" widht="100" height="250" alt="belle pic">
-
-                    <h3> voulez-vous lire cette videos <a href="/cliker ici/"> cliker ici</a> </h3>
-                    <iframe
-                    width="250"height="150" src = "https://www.youtube.com/embed/zcTFG_F0FRs"> </iframe> <br>
-                    
-                    <h3> voulez aussi ecouter de la musique ou retourner a l'accueil</h3>
-                    <audio src="Fally Ipupa - Mungala.mp3" controls autoplay="mp3">
-                    </audio> <br>
-                    <audio src="fally ipupa-Tout le monde danse.mp3" controls autoplay="mp3">
-                    </audio> <br>
-                    <a href="Accueil/"> Accueil </a> <br/> 
-
-                </section>
             </div>
 
-            <div align="center">
-                <p><h2> CV </h2></p>
-                <h3> donnez ici vos details scolaires:</h3> <br>
+            <div class="container">
+                <ul >
+                    <li class="box"><a href="accueil/">Acceuil</a></li>
+                    <li class="box"><a href="A Propos/"> A Propos<a></li>
+                    <li class="box"><a href="Travail/"> Travail</li>
+                    <li class="box"><a href="CV/">CV</a></li>
+                    <li class="box"><a href="Contact/">Contact</a></li>
+                  
+                </ul>
+
+            </div>
+
+            
+        </div>
+
+      </nav> <br/>
+
+    <div class="container3">
+        <section >
+            <h3> Decouvrer les derniers cliches de la semaine.</h3>
+            <img class="box1" src="image.jpg">
+            <img class="box1" src="image0.jpg">
+            <img class="box1" src="image1.jpg">
+            <img class="box1" src="image3.jpg">
+            <img class="box1" src="image4.jpg">
+            <img class="box1"src="image5.jpg">
+        </section>
+
+        <section class="vid">
+            <h3> Decouvrer les derniers musiques du weekends .</h3>
+            <img class="box2" src="fond music.jpg" width="50" height="50"><audio src="fally ipupa-Tout le monde danse.mp3" controls autoplay="mp3"> </audio>
+            <img class="box2" src="fond music.jpg" width="50" height="50"> <audio src="11 - happy day.mp3" controls autoplay="mp3"> </audio>
+            <img class="box2" src="fond music.jpg" width="50" height="50"><audio src="ZROPOTO_ACT_3_-_DJ_ARAFAT_YOROBO_FT_DJ_MIX_1ER(128k).m4a" controls autoplay="mp3"> </audio>
+            <img class="box2" src="fond music.jpg" width="50" height="50"><audio src="ALPHA Mon pere avait raison.mp3" controls autoplay="mp3"> </audio>
+        </section>
+
+    </div>
+
+    <div class="container2">
+
+        <h3> Donnez ici vos details scolaires:</h3> <br>
                 <h4> Avez-vous CEPE</h4>
                 <select>
-                    <option value="oui"> oui</option>
-                    <option value="non"> non</option>
+                    <option id="oui"> oui</option>
+                    <option id="non"> non</option>
                 </select> <br>
                 <h4>Avez-vous BEPC</h4>
                 <select>
-                    <option value="oui"> oui</option>
-                    <option value="non"> non</option>
+                    <option id="oui"> oui</option>
+                    <option id="non"> non</option>
                 </select> <br>
                 <h4>Avez-vous BAC</h4>
                 <select>
-                    <option value="oui"> oui</option>
-                    <option value="non"> non</option>
+                    <option id="oui"> oui</option>
+                    <option id="non"> non</option>
                 </select> <br>
                 <h4> autre diplomes universitaires mentionner ci-dessous.</h4>
                 <select>
-                    <option value="oui"> oui</option>
-                    <option value="non"> non</option>
+                    <option id="oui"> oui</option>
+                    <option id="non"> non</option>
                 </select> <br>
                 <h4> <b> Mentionnez ici vos diplomes</b></h4>
                 <textarea name="messages" cols="45" rows="10"> </textarea> <br/>
@@ -111,34 +90,30 @@
                     <label> numero tétéphone</label>
                     <input type="number" n="phone/number"> <br/>
                     <label>email</label>
-                    <input type="texte/number" write="email"> <br/>
+                    <input type="texte/number" write="email"> <br>
+                    <button type="tad"> envoyé/send</button>
                     
                 </form>
 
-            </div>
-        </p> 
-            
-        
-         
-          
-    
-          
+    </div>
 
-        
-        
-                
-    
-    </body> <br/>
+
+
+
+
+    </body>
+
     <p>
-    <footer>
-
-       <div align ="center">
-        <h2><i> Merci d'avoir visiter HCorporation, à très très bientot </i></h2>
-       </div>
-
-        <div>
-            <h2><b>www.HC.com</b></h2>
-        </div>
-    </footer>
-</p>
+        <footer>
+    
+           <div class="container4">
+            <h1><i> Merci d'avoir visiter HCorporation, à très très bientot </i></h2>
+           </div>
+    
+            <div class="container5">
+                <h1><b>www.HC.com</b></h2>
+            </div>
+        </footer>
+    </p>
+   
 </html>

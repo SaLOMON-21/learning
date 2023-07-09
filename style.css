@@ -1,77 +1,106 @@
 
-*{
-    margin: 0;
-    padding : 0 ;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    font-weight: lighter;
-  }
-  .flex{
-
-    display: flex;
-    align-items: center;
-  }
-
 body{
-background : url("../GoMyCode/FB_IMG_1669395018921.jpg");
-background-size : cover ; 
-color : #f1f4f5
-}
-.container{ 
-height: 100%;
-
-color:rgb(247, 252, 252);
-background: none;
+  background-image: url("FB_IMG_1669395018921.jpg");
+  background-size: cover;
 }
 
-nav{
-margin: 0 30px;
+
+.title{
+  color: white;
+  text-align: center;
 }
+
+
 ul{
-list-style: none ;
-margin : 20px ;
+  color: azure;
+list-style: none;
+
 font-size: 20px;
-}
-li{
-margin: 0 10px ;
-cursor: pointer;
-
+text-align: center;
+display: flex;
 }
 
-
-footer{
-
-color:rgb(247, 252, 252);
-background: none ;
+a{
+  color:rgb(250, 247, 247);
+  
 }
+
+
+.box{
+  
+  color: azure;
+  border-radius: 20px;
+  text-align: center;
+  padding: 9px;
+  box-align: center;
+  box-sizing: border-box;
+  margin: 20px;
+font-size: 20px;
+display: flex;
+}
+.container3{
+  text-align: center;
+}
+
 
 h3{
-    color:rgb(241, 236, 231);
-    font-family: roboto;
-    text-align: center;
+  color:azure;
+}
+
+.box1{
+  height: 150px;
+  width: 100px;
+  border-radius: 20px;
+  box-decoration-break: none;
+   border-style:double;
+   border-color: rgb(17, 17, 17);
+   box-align:center;
+}
+
+.box2{
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+  box-decoration-break: slice;
+   border-style: dashed;
+   border-color: rgb(162, 250, 62); 
+   border-radius: 20px;
+   -webkit-box-align: ;
+}
+
+audio{
+  background-image: url(fond\ music.jpg);
+  color: none;
+  backface-visibility: initial;
+}
+.container2{
+  text-align: center;
+}
+h4{
+  color:  beige;
+  text-align: center;
+}
+select{
+  color:rgb(184, 16, 16);
+  text-align: center;
+  text-align: center;
 
 }
 h2{
-    text-align: center;
-
+  color:azure;
 }
-/* unvisited link */
-a:link {
-  color: rgb(57, 19, 226);
+form{
+  color:azure;
 }
-
-/* visited link */
-a:visited {
-  color: rgb(187, 71, 255);
+footer{
+  color:azure;
 }
-
-/* mouse over element */
-div:hover {
-  color: rgb(230, 14, 147);
-} 
-
-/* selected link */
-a:active{
-  color: #c2cf0b
+h1{
+  color:azure;
 }
-
+.container4{
+  text-align: center;
+}
+.container5{
+  text-align: right;
+}
